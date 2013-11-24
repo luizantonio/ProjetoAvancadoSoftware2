@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExercicioWidgetUm</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="yellow">YELLOW</string>
+    
+	<string name="red_toggle_on">RED</string>
+    <string name="blue_toggle_on">BLUE</string>
+    <string name="yellow_toggle_on">YELLOW</string>
+    <string name="red_toggle_off">NO_RED</string>
+    <string name="blue_toggle_off">NO_BLUE</string>
+    <string name="yellow_toggle_off">NO_YELLOW</string>
+</resources>

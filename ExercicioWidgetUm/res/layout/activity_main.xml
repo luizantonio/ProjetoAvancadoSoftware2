@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showImageButton1"
+            android:src="@drawable/buttons_red" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/imageButton1"
+            android:onClick="showImageButton2"
+            android:src="@drawable/buttons_blue" />
+        
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRadioButton1"
+            android:text="@string/red" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRadioButton2"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRadioButton3"
+            android:text="@string/yellow" />
+    </RadioGroup>
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+		<ToggleButton
+		    android:textOn="@string/red_toggle_on"
+		    android:textOff="@string/red_toggle_off"
+		    android:id="@+id/toggleButton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:onClick="showToggleButton1"/>
+
+		<ToggleButton
+		    android:textOn="@string/blue_toggle_on"
+		    android:textOff="@string/blue_toggle_off"
+		    android:id="@+id/toggleButton2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:onClick="showToggleButton2"/>
+
+		<ToggleButton
+		    android:textOn="@string/yellow_toggle_on"
+		    android:textOff="@string/yellow_toggle_off"
+		    android:id="@+id/toggleButton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:onClick="showToggleButton3"/>
+	    
+	</LinearLayout>
+ 	<RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRadioButton4"
+            android:text="@string/red" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRadioButton5"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRadioButton6"
+            android:text="@string/yellow" />
+    </RadioGroup>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center_horizontal"
+	        android:text="@string/hello_world" />
+	</LinearLayout>
+   
+</LinearLayout>

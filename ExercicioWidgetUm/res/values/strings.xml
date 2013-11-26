@@ -7,11 +7,13 @@
     <string name="red">RED</string>
     <string name="blue">BLUE</string>
     <string name="yellow">YELLOW</string>
-    
+   
 	<string name="red_toggle_on">RED</string>
     <string name="blue_toggle_on">BLUE</string>
     <string name="yellow_toggle_on">YELLOW</string>
     <string name="red_toggle_off">NO_RED</string>
     <string name="blue_toggle_off">NO_BLUE</string>
     <string name="yellow_toggle_off">NO_YELLOW</string>
+    
+    <string name="alterar">Altere com a cor acima</string>
 </resources>

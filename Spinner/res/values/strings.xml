@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spinner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>    
+    <string name="current">Current Color</string>
+    <string name="spinner1_prompt">Current Color</string>
+    <string name="spinner2_mprompt">Selecione Opção de Cor</string>
+    <string-array name="spinner1_entries">
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Amarelo</item>
+        <item>Vermelho</item>        
+    </string-array>
+    <string name="spinner_message_template">
+        Your Spinner color is \'%s\'
+    </string>
+
+</resources>

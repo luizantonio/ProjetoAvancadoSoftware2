@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecondIntent</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_first">Primeira Atividade.</string>
+    <string name="button1_ir_para_activity2">Ir para Atividade 2</string>
+    <string name="atividade1">Atividade 1</string>
+    
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="button_ir_para_activity1">Ir para Atividade 1</string>
+    <string name="atividade2">Atividade 2</string>
+    <string name="text_second">Segunda Atividade.</string>
+    
+
+</resources>

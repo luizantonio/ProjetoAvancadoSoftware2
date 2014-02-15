@@ -76,7 +76,11 @@ public class Client2 extends Activity {
 	  String strId = txtId.getText().toString();
 	  long id = Long.parseLong(strId);
 	  int s = d.size();
-	  txtGrade.setText(String.valueOf(s));
+	  String str = (String)""+s;
+	  System.out.println(">>>>>>>>>>>>>>>>>>>>  "+ s);
+	  txtId.setText("");
+      txtName.setText("");
+	  txtGrade.setText(str);
 	}
 }
 
@@ -102,6 +106,7 @@ public class Client2 extends Activity {
             txtGrade.setText("");
           }
         });
+    
 
   }
 }

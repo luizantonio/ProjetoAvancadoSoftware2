@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Networking1</string>
+    <string name="client_name">DaoClient</string>
+    <string name="read">R</string>
+    <string name="write">W</string>
+    <string name="lblResults">Nome e Nota:</string>
+    <string name="get">G</string>
+    <string name="add">A</string>
+    <string name="upd">U</string>
+    <string name="del">D</string>
+    <string name="cln">C</string>
+    <string name="siz">S</string>
+</resources>
